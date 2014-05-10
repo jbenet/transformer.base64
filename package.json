@@ -1,0 +1,18 @@
+{
+  "name": "transformer.base64",
+  "version": "0.0.1",
+  "description": "transformer type: base64 encoded data in ascii",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-type"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dat-transformer": "~0.1.3"
+  }
+}
